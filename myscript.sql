@@ -1,5 +1,5 @@
--- Add mobile column if it does not exist
-ALTER TABLE devera ADD COLUMN IF NOT EXISTS mobile VARCHAR(15);
+-- -- Add mobile column if it does not exist
+-- ALTER TABLE devera ADD COLUMN IF NOT EXISTS mobile VARCHAR(15);
 
 -- Update the user with new values
 UPDATE devera 
